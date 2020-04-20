@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+		function mmc(n1,n2)
+		var n1=document.getElementById("numero1").value;
+		var n2=document.getElementById("numero2").value;
+{
+	var=resto,a,b;
+	a=n1;
+	b=n2;
+	while(resto!=0){
+	resto=a%b;
+	a=b;
+	b=resto;
+	}
+	return(a*b)/b;
+   
+}
+//console.log(mmc(4));
+		</script>
+		<body>
+	<h1 id="result"></h1>
+	<input type="number" id="numero1"/>
+	<input type="number" id="numero2"/>
+	<button onclick="javascript:mmc()">Executar
+	<button onclick="javascript:mmc()">Executar
+	</button>
+	</body>
+	</head>
+</html>

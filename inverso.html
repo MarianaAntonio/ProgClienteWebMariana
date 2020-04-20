@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+		var n=document.getElementById("numero").value;
+		function inverso(str)
+		
+{
+	var cortada=str.split('');
+	var final=";
+	
+	for(i=cortada.length-1;i>;i--)
+	{
+		final+=cortada[i]+'';
+	}
+	return final;
+		
+	
+}
+		</script>
+		<body>
+	<h1 id="result"></h1>
+	<input type="number" id="numero"/>
+	<button onclick="javascript:inverso()">Executar
+	</button>
+	</body>
+	</head>

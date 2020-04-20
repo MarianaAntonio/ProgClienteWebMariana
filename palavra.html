@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+		function poli(string)
+		
+{
+	var string=document.getElementById("string").value;
+	var d=[];
+	for(var i = 0; i<string.length; i++)
+	{      
+    direita.unshift(string.charAt(i)); 
+    }
+    console.log(direita);
+	var esquerda = [];
+	for (var j=string.length-1; j>=0; j--)
+	{
+    esquerda.push(str.charAt(j));
+	}
+    console.log(esquerda);
+}
+
+	
+//console.log(poli(4));
+		</script>
+		<body>
+	<h1 id="result"></h1>
+	<input type="word" id="string"/>
+	<button onclick="javascript:poli()">Executar
+	</button>
+	</body>
+	</head>
+</html>
